@@ -1,7 +1,6 @@
 import numpy as np
 from tqdm import tqdm
 
-
 class Perceptron:
     
     def __init__(self,learning_rate=0.01, epochs=100,activation_function='step'):
